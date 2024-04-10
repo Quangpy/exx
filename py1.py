@@ -21,13 +21,11 @@ class Graph:
         for vertex, data in enumerate(self.vertexx):
             print(f'vertex{vertex}: {data}')
 
-
 a = Graph(4)
 a.add_vertex(0, 'A')
 a.add_vertex(1, 'B')
 a.add_vertex(2, 'C')
 a.add_vertex(3, 'D')
-a.add_vertex(4, 'E')
 a.add_egde(0, 1)  # A-B
 a.add_egde(0, 2)  # A-C
 a.add_egde(0, 3)  # A-D
