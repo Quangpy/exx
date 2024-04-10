@@ -31,4 +31,5 @@ a.add_egde(0, 2)  # A-C
 a.add_egde(0, 3)  # A-D
 a.add_egde(1, 2)  # C-Bs
 a.print()
-a.print()
+
+
